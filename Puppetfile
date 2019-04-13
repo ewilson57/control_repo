@@ -2,6 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-apt', '6.3.0'
 mod 'puppetlabs-docker', '3.5.0'
+mod 'puppetlabs-ntp', '7.4.0'
 mod 'puppetlabs-powershell', '2.2.0'
 mod 'puppetlabs-reboot', '2.1.2'
 mod 'puppetlabs-sshkeys_core', '1.0.2'
