@@ -1,5 +1,6 @@
 forge 'https://forge.puppet.com'
 
+mod 'puppetlabs-apache', '4.1.0'
 mod 'puppetlabs-apt', '6.3.0'
 mod 'puppetlabs-aws', '2.1.0'
 mod 'puppetlabs-docker', '3.5.0'
