@@ -1,3 +1,4 @@
+# Apache profile
 class profile::apache {
   class { '::apache':
     default_vhost => true,
@@ -12,6 +13,6 @@ class profile::apache {
   }
 
   file {  "${docroot}/index.html":
-    content => "Test pageThis is a test",
+    content => 'Test pageThis is a test',
   }
 }
